@@ -2,18 +2,24 @@
 
 A simple deep learning project using a Convolutional Neural Network (CNN) trained on the CIFAR-10 dataset. It classifies custom images (like cars, trucks, cats, etc.) using a pre-trained TensorFlow model.
 
+---
+
 ## Dataset
 
-- CIFAR-10: 60,000 images across 10 categories  
-- Classes: `Plane`, `Car`, `Bird`, `Cat`, `Deer`, `Dog`, `Frog`, `Horse`, `Ship`, `Truck`
+- **CIFAR-10**: 60,000 images across 10 categories  
+- **Classes**: Plane, Car, Bird, Cat, Deer, Dog, Frog, Horse, Ship, Truck
 
-##  Technologies Used
+---
 
-- Python
-- TensorFlow / Keras
-- OpenCV
-- NumPy
-- Matplotlib
+## Technologies Used
+
+- Python  
+- TensorFlow / Keras  
+- OpenCV  
+- NumPy  
+- Matplotlib  
+
+---
 
 ## Project Structure
 
@@ -25,26 +31,32 @@ image-classifier-tensorflow/
 ├── README.md
 
 
-##  How It Works
+---
 
-- Loads CIFAR-10 dataset (optional for reference)
-- Loads pre-trained `.keras` model
-- Reads and resizes a custom image (e.g., car.jpg)
-- Normalizes the image
-- Runs prediction and displays the predicted class
+## How It Works
+
+- Loads CIFAR-10 dataset (optional for reference)  
+- Loads pre-trained `.keras` model  
+- Reads and resizes a custom image (e.g., `car.jpg`)  
+- Normalizes the image  
+- Runs prediction and displays the predicted class  
+
+---
 
 ## How to Run
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/mahiyafatema/image-classifier-tensorflow.git
-   cd image-classifier-tensorflow
-### Install required packages:
+```bash
+git clone https://github.com/mahiyafatema/image-classifier-tensorflow.git
+cd image-classifier-tensorflow
 pip install tensorflow opencv-python matplotlib numpy
-Run the script:
+python classifier.py
 
-### python classifier.py
- Make sure your .keras model file and image (car.jpg) are in the correct folder as specified in the script.
+### Make sure your .keras model file and image (car.jpg) are in the correct folder as specified in the script.
 
-### Example Output
+## Example Output
 Prediction is Car
+
+
+---
+
+If you want, I can generate this as a markdown file for you to upload — or help you add a section like "Future Improvements" or "Contact Info." Would you like that?
